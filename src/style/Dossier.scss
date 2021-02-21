@@ -1,0 +1,45 @@
+.Dossier{
+    width: 250px;
+    height: 300px;
+    margin: 25px;
+    padding: 0;
+    background-color: #444;
+    color: white;
+    border: 1px solid #555;
+    overflow: hidden;
+    text-align: center;
+
+    .couverture{
+        .deplacer{
+            position: absolute;
+            opacity: 1;
+            width: 10px;
+            height: 10px;
+        }
+
+        img{
+            width: 100%;
+            height: 150px;
+        }
+    }
+
+    
+
+    .info{
+        text-align: left;
+        font-size: 1em;
+        line-height: 1.2em;
+        padding: 10px;
+
+        p::before{
+            content: "Modifier : " ;
+        }
+    }
+
+    button{
+        background-color: transparent;
+        border:none;
+        color: white;
+        margin-left: 80%;
+    }
+}
